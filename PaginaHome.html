@@ -10,85 +10,119 @@
         	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- analisa a largura do dispositivo e a usa como a largura da página., ou seja torna o site mais responsivo -->
 		<link rel="icon" href="" type="image/png"> <!-- icone do site = imagem -->
 		<style>
-			img(
-				
-			)
-			
 			body{
-	                background-color: black;
-	                color: white;
-	                font-family: arial, sans-serif;
-	                max-width: 1200px;
-	                margin: 0 auto;]
-	                padding: 10px;
+		                background-color: black;
+		                font-family: arial, sans-serif;
+		                max-width: 1200px;
+		                margin: 0 auto;]
+		                padding: 10px;
             			}
+			img{
+		                width: 620px;
+		                height: 620px;
+		            	}
 			label{
-                			display: inline;
+                		display: inline;
             			}
 			form{
-                			display: flex;
-                			flex-direction: column;
-                			width: 70%;
+                		display: flex;
+                		flex-direction: column;
+                		width: 70%;
            			 }
             		form [type="submit"]{
-                			height: 50px;
-                			width:50%;
-                			background-color: #FF0000;
-                			color: white;
-               				font-weight: bold;
+                		height: 50px;
+                		width:50%;
+                		background-color: #FF0000;
+                		color: white;
+               			font-weight: bold;
             			}
             		form [type="submit"]:hover{
-                			cursor: pointer;           			}
+                		cursor: pointer;           			}
             		#cadastro{
-                			text-align: center;
-                			color: #FF0000;
+                		text-align: center;
+                		color: #FF0000;
             			}
             		input{
-                			height: 30px;
-                			padding: 10px;
-                			outline: none;
-                			border: 0;
-                			font-size: 15px;
-                			margin-top: 30px;
+                		height: 30px;
+                		padding: 10px;
+                		outline: none;
+                		border: 0;
+                		font-size: 15px;
+                		margin-top: 30px;
             			}
 			span{
 				color: #FF0000;
             			}
             		p{
-                			line-height: 20px;
-                			max-width: 500px;
-                			font-family: Tahoma;
+                		line-height: 20px;
+                		max-width: 500px;
+                		font-family: Tahoma;
             			}
 			header{
-                			display: flex;
-                			flex-direction: row;
-                			justify-content: space-between;
-                			align-items: center;
+                		display: flex;
+                		flex-direction: row;
+                		justify-content: space-between;
+                		align-items: center;
             			}
             		#title{
-                			flex-direction: column;
-                			line-height: 10px;
+                		flex-direction: column;
+                		line-height: 10px;
             			}
             		li{
-                			display:inline-block;
-                			margin: 20px;
+                		display:inline-block;
+                		margin: 20px;
             			}
             		a{
-                			color: white;
+                		color: white;
             			}
             		a:hover{
-                			color: #FF0000;
-                			transition: 0.3s all;
+                		color: #FF0000;
+                		transition: 0.3s all;
             			}
             		#Login{
-                			border: 2px solid #FF0000;
-                			padding: 10px;
-                			border-radius: 15px;
+                		border: 2px solid #FF0000;
+                		padding: 10px;
+                		border-radius: 15px;
             			}
             		#Login:hover{
-                			background-color: #FF0000;
-                			color: white;
+                		background-color: #FF0000;
+                		color: white;
             			}
+			main{
+			        display: flex;
+			        flex-direction: row;
+			        margin-top: 50px;
+			        }
+			aside{
+		                margin-top: 30px;
+		            	}
+			@media screen and (max-width: 760px){
+	                	header{
+	                    		flex-direction: column;
+	                		}
+		                main{
+		                    flex-direction: column;
+		                	}
+		                h2{
+		                    font-size: 35px; 
+		                    text-align: center;
+		                	}
+		                input{
+		                    align-self: center;
+		                	}
+		                img{
+		                    width: 400px;
+		                    height: 400px;
+		                    margin-top: 60px;
+		                	}
+		                ul{
+		                    text-align: center;
+		                    text-size: 10px;
+		                	}
+		                p{
+		                    text-align: center;
+		                	}
+		            }
 		</style>
 	</head> <!-- fecha a Cabeça -->
 	<body> <!-- Corpo do site -->
